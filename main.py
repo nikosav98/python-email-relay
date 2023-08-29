@@ -153,7 +153,7 @@ while flag:
     else:
         print("Failed to select the mailbox.")
 
-    sleep(10)
+    sleep(constants.sleep_for)
     
 imap.logout()
 if flag:
